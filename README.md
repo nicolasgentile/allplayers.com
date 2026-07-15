@@ -1,8 +1,8 @@
-# ⚽ AllPlayers.com
+# 🎮 AllPlayers.com
 
 Aplicación web desarrollada como proyecto final del curso **JavaScript** de CoderHouse.
 
-El proyecto consiste en una plataforma donde los usuarios pueden explorar distintos juegos mediante una interfaz dinámica. La información se obtiene desde un archivo JSON local y se manipula utilizando JavaScript.
+El proyecto consiste en un catálogo interactivo de videojuegos desarrollado con JavaScript. La información se carga dinámicamente desde un archivo JSON local, permitiendo generar el contenido de la página de forma dinámica.
 
 ---
 
@@ -17,35 +17,29 @@ El proyecto consiste en una plataforma donde los usuarios pueden explorar distin
 
 ## ✨ Funcionalidades
 
-- Visualización dinámica de video juegos.
-- Carga de datos desde un archivo JSON.
-- Manipulación del DOM.
-- Interfaz desarrollada con JavaScript.
-- Navegación dinámica entre los elementos del sitio.
+- 📂 Carga dinámica de videojuegos desde un archivo JSON.
+- 🔎 Visualización de la información de cada videojuego.
+- ⚡ Manipulación dinámica del DOM.
+- 📱 Diseño responsive.
+- 🎨 Interfaz desarrollada con JavaScript puro.
 
 ---
 
 ## ⚙️ Instalación
 
-Clonar el repositorio
-
 ```bash
 git clone https://github.com/nicolasgentile/allplayers.com.git
-```
 
-Ingresar al proyecto
-
-```bash
 cd allplayers.com
 ```
 
-Abrir el proyecto utilizando una extensión como **Live Server** de Visual Studio Code para permitir la carga del archivo JSON local.
+Instalar las dependencias necesarias (si corresponde) y ejecutar el proyecto mediante un servidor local, por ejemplo utilizando **Live Server** en Visual Studio Code.
 
 ---
 
-## ℹ️ Nota
+## ℹ️ Importante
 
-El proyecto utiliza un archivo JSON local como fuente de datos. Por políticas de seguridad del navegador (CORS), es necesario ejecutarlo mediante un servidor local, por ejemplo utilizando la extensión **Live Server** de Visual Studio Code.
+El proyecto utiliza `fetch()` para cargar un archivo JSON local. Por razones de seguridad del navegador (CORS), debe ejecutarse desde un servidor local para que los datos puedan cargarse correctamente.
 
 ---
 
@@ -53,5 +47,6 @@ El proyecto utiliza un archivo JSON local como fuente de datos. Por políticas d
 
 **Nicolás Gentile**
 
-- GitHub: https://github.com/nicolasgentile
-- LinkedIn: https://www.linkedin.com/in/nicolasbgentile/
+GitHub: https://github.com/nicolasgentile
+
+LinkedIn: https://www.linkedin.com/in/nicolasbgentile/
