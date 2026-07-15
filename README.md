@@ -2,7 +2,7 @@
 
 Aplicación web desarrollada como proyecto final del curso **JavaScript** de CoderHouse.
 
-El proyecto consiste en una plataforma donde los usuarios pueden explorar distintos jugadores mediante una interfaz dinámica. La información se obtiene desde un archivo JSON local y se manipula utilizando JavaScript.
+El proyecto consiste en una plataforma donde los usuarios pueden explorar distintos juegos mediante una interfaz dinámica. La información se obtiene desde un archivo JSON local y se manipula utilizando JavaScript.
 
 ---
 
@@ -17,7 +17,7 @@ El proyecto consiste en una plataforma donde los usuarios pueden explorar distin
 
 ## ✨ Funcionalidades
 
-- Visualización dinámica de jugadores.
+- Visualización dinámica de video juegos.
 - Carga de datos desde un archivo JSON.
 - Manipulación del DOM.
 - Interfaz desarrollada con JavaScript.
