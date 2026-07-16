@@ -1,45 +1,87 @@
-# 🎮 AllPlayers.com
+# 🎮 All Players!
 
-Aplicación web desarrollada como proyecto final del curso **JavaScript** de CoderHouse.
+Proyecto final del curso de **JavaScript** realizado en **CoderHouse**.
 
-El proyecto consiste en un catálogo interactivo de videojuegos desarrollado con JavaScript. La información se carga dinámicamente desde un archivo JSON local, permitiendo generar el contenido de la página de forma dinámica.
+All Players! es un ecommerce de videojuegos desarrollado con HTML, CSS y JavaScript puro. El proyecto simula una tienda online donde los usuarios pueden explorar un catálogo de juegos, iniciar una sesión mediante su correo electrónico, administrar un carrito de compras y finalizar un pedido.
 
 ---
 
-## 🚀 Tecnologías utilizadas
+## 🚀 Demo
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- JSON
+🔗 https://nicolasgentile.github.io/allplayers.com/
 
 ---
 
 ## ✨ Funcionalidades
 
-- 📂 Carga dinámica de videojuegos desde un archivo JSON.
-- 🔎 Visualización de la información de cada videojuego.
-- ⚡ Manipulación dinámica del DOM.
-- 📱 Diseño responsive.
-- 🎨 Interfaz desarrollada con JavaScript puro.
+- 🎮 Catálogo de videojuegos cargado dinámicamente desde un archivo JSON.
+- 👤 Simulación de inicio de sesión mediante correo electrónico.
+- 🛒 Agregar productos al carrito de compras.
+- ❌ Eliminar productos individuales del carrito.
+- 🗑️ Vaciar completamente el carrito.
+- 💰 Cálculo automático del importe total.
+- 📋 Formulario para finalizar la compra.
+- 💾 Persistencia de datos utilizando LocalStorage.
+- 🔔 Notificaciones mediante Toastify.
+- ⚠️ Alertas y confirmaciones con SweetAlert2.
+- 📱 Diseño responsive utilizando Bootstrap.
 
 ---
 
-## ⚙️ Instalación
+## 🛠️ Tecnologías utilizadas
 
-```bash
-git clone https://github.com/nicolasgentile/allplayers.com.git
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Bootstrap 4
+- LocalStorage
+- Fetch API
+- Toastify JS
+- SweetAlert2
 
-cd allplayers.com
+---
+
+## 📂 Estructura del proyecto
+
+```
+allplayers.com/
+│
+├── css/
+├── icons/
+├── imagen/
+├── JS/
+├── pages/
+├── products.json
+└── index.html
 ```
 
-Instalar las dependencias necesarias (si corresponde) y ejecutar el proyecto mediante un servidor local, por ejemplo utilizando **Live Server** en Visual Studio Code.
+---
+
+## 📚 Lo aprendido
+
+Durante el desarrollo de este proyecto consolidé conceptos fundamentales de JavaScript, entre ellos:
+
+- Manipulación del DOM.
+- Eventos.
+- Objetos y Arrays.
+- Funciones de orden superior.
+- Fetch API.
+- Promesas y Async/Await.
+- Consumo de datos desde archivos JSON.
+- Persistencia de información con LocalStorage.
+- Organización del código en múltiples módulos y funciones.
+
+Este proyecto marcó una etapa importante en mi aprendizaje, ya que me permitió desarrollar una aplicación web completamente dinámica antes de comenzar a trabajar con React.
 
 ---
 
-## ℹ️ Importante
+## 🔮 Posibles mejoras futuras
 
-El proyecto utiliza `fetch()` para cargar un archivo JSON local. Por razones de seguridad del navegador (CORS), debe ejecutarse desde un servidor local para que los datos puedan cargarse correctamente.
+- Implementar un sistema de autenticación real.
+- Incorporar una base de datos para almacenar productos y pedidos.
+- Agregar filtros por categoría y buscador.
+- Integrar una pasarela de pagos.
+- Migrar el proyecto a React para mejorar la escalabilidad.
 
 ---
 
@@ -47,6 +89,5 @@ El proyecto utiliza `fetch()` para cargar un archivo JSON local. Por razones de 
 
 **Nicolás Gentile**
 
-GitHub: https://github.com/nicolasgentile
-
-LinkedIn: https://www.linkedin.com/in/nicolasbgentile/
+GitHub:
+https://github.com/nicolasgentile
