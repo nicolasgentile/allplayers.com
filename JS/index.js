@@ -77,7 +77,8 @@ async function consultarJson () { //LLamando a JSON
     })
     .catch(error => console.log(error.message) ); */
     try {
-        const response = await fetch ('../products.json');
+        const response = await fetch(window.location.origin + '/allplayers.com/products.json');
+            console.log(window.location.origin + '/allplayers.com/products.json');
         const info = await response.json();
         productList = [...info]
         pain()
